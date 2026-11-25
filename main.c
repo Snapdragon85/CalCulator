@@ -8,8 +8,8 @@ void clearScreen() {
 }
 
 int main() {
-    int a;
-    int b;
+    float a;
+    float b;
     float c;
     int choice;
 
@@ -29,6 +29,15 @@ int main() {
         sleep(1);
         printf("The answer is %f\n", c);
         sleep(1);
+        printf("Do Another Calculation? (0/1)");
+        scanf("%d", &choice);
+        if (choice == 1) {
+            main();
+        }
+        else {
+            printf("Good Night!");
+            return 0;
+        }
     }
     if (choice == 2) {
         printf("Subtracting\n");
@@ -36,6 +45,15 @@ int main() {
         sleep(1);
         printf("The answer is %f\n", c);
         sleep(1);
+        printf("Do Another Calculation? (0/1)");
+        scanf("%d", &choice);
+        if (choice == 1) {
+            main();
+        }
+        else {
+            printf("Good Night!");
+            return 0;
+        }
     }
     if (choice == 3) {
         printf("Dividing\n");
@@ -43,6 +61,15 @@ int main() {
         sleep(1);
         printf("The answer is %f\n", c);
         sleep(1);
+        printf("Do Another Calculation? (0/1)");
+        scanf("%d", &choice);
+        if (choice == 1) {
+            main();
+        }
+        else {
+            printf("Good Night!");
+            return 0;
+        }
     }
     if (choice == 4) {
         printf("Multiplying\n");
@@ -50,5 +77,14 @@ int main() {
         sleep(1);
         printf("The answer is %f\n", c);
         sleep(1);
+        printf("Do Another Calculation? (0/1)");
+        scanf("%d", &choice);
+        if (choice == 1) {
+            main();
+        }
+        else {
+            printf("Good Night!");
+            return 0;
+        }
     }
 }
