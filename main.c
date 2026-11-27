@@ -15,10 +15,10 @@ int main() {
 
     clearScreen();
     printf("What is the 'a' value?:");
-    scanf("%d", &a);
+    scanf("%f", &a);
 
     printf("What is the 'b' value?:");
-    scanf("%d", &b);
+    scanf("%f", &b);
 
     printf("What operation? 1) Add, 2) Sub, 3) Div, 4) Mult :");
     scanf("%d", &choice);
@@ -29,7 +29,7 @@ int main() {
         sleep(1);
         printf("The answer is %f\n", c);
         sleep(1);
-        printf("Do Another Calculation? (0/1)");
+        printf("Do Another Calculation? (1/0)");
         scanf("%d", &choice);
         if (choice == 1) {
             main();
@@ -45,7 +45,7 @@ int main() {
         sleep(1);
         printf("The answer is %f\n", c);
         sleep(1);
-        printf("Do Another Calculation? (0/1)");
+        printf("Do Another Calculation? (1/0)");
         scanf("%d", &choice);
         if (choice == 1) {
             main();
@@ -61,7 +61,7 @@ int main() {
         sleep(1);
         printf("The answer is %f\n", c);
         sleep(1);
-        printf("Do Another Calculation? (0/1)");
+        printf("Do Another Calculation? (1/0)");
         scanf("%d", &choice);
         if (choice == 1) {
             main();
@@ -77,7 +77,7 @@ int main() {
         sleep(1);
         printf("The answer is %f\n", c);
         sleep(1);
-        printf("Do Another Calculation? (0/1)");
+        printf("Do Another Calculation? (1/0)");
         scanf("%d", &choice);
         if (choice == 1) {
             main();
